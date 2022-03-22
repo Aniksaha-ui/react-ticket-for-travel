@@ -5,7 +5,7 @@ import mobile from "../images/mobile.png";
 
 const Register = () => {
   return (
-    <div className="container mt-5">
+    <div className="container-custom mt-5">
       <div className="row d-flex g-0">
         {/* img section  */}
         <div className="col-lg-8 col-sm-11 p-5 bg-2F2E41">

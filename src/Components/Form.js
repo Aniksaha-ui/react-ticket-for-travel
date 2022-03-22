@@ -11,7 +11,7 @@ const Form = () => {
             placeholder="Email Address"
           />
         </div>
-        <div className="mt-3">
+        <div className="mt-2">
           <input
             type="text"
             className="w-75 mx-auto form-control border border-2 form-border-color"
@@ -21,8 +21,9 @@ const Form = () => {
         <div>
           <p className="forgot-password">Forgot Password?</p>
         </div>
-        <div className="mt-3 d-flex align-items-center justify-content-center">
-          <button className="btn-width btn btn-primary">Login</button>
+        <div className="d-flex align-items-center justify-content-center">
+          <button className="btn-width btn">Login</button>
+          <br />
         </div>
       </form>
     </div>

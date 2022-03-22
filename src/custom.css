@@ -17,6 +17,12 @@ main {
   align-items: center;
 }
 
+.container-custom {
+  height: 1920;
+  width: 1080;
+  margin: 20px;
+}
+
 .bg-2F2E41 {
   background-color: #2f2e41;
 }
@@ -44,8 +50,8 @@ main {
   top: 52px;
   bottom: 52px;
   right: 100px;
-  width: 550px;
-  height: 550px;
+  width: 650px;
+
   background-color: #ffffff;
 }
 
@@ -59,17 +65,21 @@ main {
 
 .forgot-password {
   text-align: right;
-  margin-right: 60px;
+  margin-right: 70px;
 }
 
 .btn-width {
-  width: 390px;
+  width: 460px;
+  background: #3e489a;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px auto;
 }
 
 .hr-lines {
   position: relative;
   max-width: 500px;
-  margin: 5px 60px;
+  margin: 10px 80px;
   text-align: center;
 }
 
@@ -77,28 +87,52 @@ main {
   content: " ";
   display: block;
   height: 2px;
-  width: 130px;
+  width: 170px;
   position: absolute;
   top: 50%;
   left: 0;
-  background: red;
+  background: #666666;
 }
 
 .hr-lines:after {
   content: " ";
   height: 2px;
-  width: 130px;
-  background: red;
+  width: 170px;
+  background: #666666;
   display: block;
   position: absolute;
   top: 50%;
   right: 0;
 }
 
+.account {
+  color: #707070;
+}
+.Signup {
+  color: #3e489a;
+}
+
 @media only screen and (max-width: 576px) {
   .img-margin {
     margin-left: 0%;
   }
+  .forgot-password {
+    text-align: right;
+    margin-right: 40px;
+  }
+
+  .hr-lines {
+    margin: 10px 120px;
+  }
+
+  .hr-lines:before {
+    width: 130px;
+  }
+
+  .hr-lines:after {
+    width: 130px;
+  }
+
   .absolute {
     position: absolute;
     top: -600px;
@@ -107,5 +141,8 @@ main {
     width: 350px;
     height: 550px;
     background-color: #ffffff;
+  }
+  .btn-width {
+    width: 240px;
   }
 }
